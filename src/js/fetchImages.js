@@ -15,3 +15,19 @@ export const fetchImages = async (inputValue, pageNr) => {
     console.log(error);
   }
 };
+
+//=======================================
+
+// import axios from 'axios';
+
+// export const fetchImages = async (inputValue, pageNr) => {
+
+// const BASE_URL = `https://pixabay.com/api/?key=34678398-4542b4caf88c7799836ab624b&q=${inputValue}&orientation=horizontal&safesearch=true&image_type=photo&per_page=40&page=${pageNr}`;
+
+// try {
+//    const response = await axios.post(BASE_URL);
+//    console.log(response);
+//  } catch (error) {
+//    console.log(error);
+//  }
+//};
