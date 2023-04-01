@@ -28,8 +28,8 @@ function onBtnSearch(e) {
         .then(foundList => renderResponseSearch(foundList));
     
     //try { 
-    // const foundList = await fetchImages(inputValue, pageNumber);
-    //renderResponseSearch(foundList);
+    // const foundList = fetchImages(inputValue, pageNumber);
+    //await renderResponseSearch(foundList);
     //}
     //catch (error) {
     //console.log(error);
@@ -46,8 +46,8 @@ function onBtnLoadMore(e) {
         .then(foundList => renderResponseLoadMore(foundList));  
     
     //try { 
-    // const foundList = await fetchImages(inputValue, pageNumber);
-    //renderResponseSearch(foundList);
+    // const foundList = fetchImages(inputValue, pageNumber);
+    //await renderResponseSearch(foundList);
     //}
     //catch (error) {
     //console.log(error);
