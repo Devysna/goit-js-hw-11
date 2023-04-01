@@ -45,12 +45,14 @@ function onBtnLoadMore(e) {
     fetchImages(inputValue, pageNumber)
         .then(foundList => renderResponseLoadMore(foundList));  
     
+    //async function getImages () {
     //try { 
-    // const foundList = fetchImages(inputValue, pageNumber);
-    //await renderResponseSearch(foundList);
+    // const foundList = await fetchImages(inputValue, pageNumber);
+    // await renderResponseSearch(foundList);
     //}
     //catch (error) {
     //console.log(error);
+    //}
     //}
 };
 
